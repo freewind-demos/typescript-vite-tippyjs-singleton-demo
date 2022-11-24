@@ -3,12 +3,16 @@ lockfileVersion: 5.4
 specifiers:
   '@types/node': 16.11.0
   '@vitejs/plugin-react': 1.0.4
+  tippy: ^0.0.0
+  tippy.js: ^6.3.7
   ts-node: 10.3.0
   typescript: 4.4.4
   vite: 2.6.7
   vite-plugin-html-template: 1.0.6
 
 dependencies:
+  tippy: 0.0.0
+  tippy.js: 6.3.7
   ts-node: 10.3.0_anqydb32qpwzcorlx3enzr2dkq
 
 devDependencies:
@@ -311,6 +315,10 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@cspotcode/source-map-consumer': 0.8.0
+    dev: false
+
+  /@popperjs/core/2.11.6:
+    resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
     dev: false
 
   /@rollup/pluginutils/4.1.1:
@@ -849,6 +857,16 @@ packages:
     dependencies:
       has-flag: 3.0.0
     dev: true
+
+  /tippy.js/6.3.7:
+    resolution: {integrity: sha512-E1d3oP2emgJ9dRQZdf3Kkn0qJgI6ZLpyS5z6ZkY1DF3kaQaBsGZsndEpHwx+eC+tYM41HaSNvNtLx8tU57FzTQ==}
+    dependencies:
+      '@popperjs/core': 2.11.6
+    dev: false
+
+  /tippy/0.0.0:
+    resolution: {integrity: sha512-GOrE/mzoeL4t7Q2Bky+7efOZJKH3W95DZIUez+nUns37jHf8R9PEupuEx9F7HolxX+0fzzpKfas2N+LIlYHXAA==}
+    dev: false
 
   /to-fast-properties/2.0.0:
     resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=}

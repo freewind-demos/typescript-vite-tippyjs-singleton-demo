@@ -3,6 +3,8 @@
     "start": "vite --open"
   },
   "dependencies": {
+    "tippy": "^0.0.0",
+    "tippy.js": "^6.3.7",
     "ts-node": "10.3.0"
   },
   "devDependencies": {

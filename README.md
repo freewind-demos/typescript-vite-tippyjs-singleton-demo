@@ -1,9 +1,7 @@
-TypeScript Vite HTML Demo
+TypeScript Vite Tippyjs Demo
 ===========================
 
 ```
 npm install
-npm run demo
+npm start
 ```
-
-It will open page on browser automatically.
